@@ -3,8 +3,8 @@ class Deadlinks < Formula
 
   desc "CLI/API for links liveness checking"
   homepage "https://github.com/butuzov/deadlinks"
-  url "https://files.pythonhosted.org/packages/91/65/302dc199ba8035f066a298775f90035228a9a61bd24645af0ed90f859fba/deadlinks-0.1.1.tar.gz"
-  sha256 "8c7087087c00d7f597a6e6c5e2c26d031b164a8f77f09fe6b9c87f15f8b17a61"
+  url "https://github.com/butuzov/deadlinks/releases/download/0.2.0/deadlinks-0.2.0.tar.gz"
+  sha256 "ad78679215f8a509381fe6d487e04132f901b46db056c22982ee505a0258fc10"
 
   depends_on "python"
 
