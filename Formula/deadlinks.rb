@@ -3,8 +3,8 @@ class Deadlinks < Formula
 
   desc "CLI/API for links liveness checking"
   homepage "https://github.com/butuzov/deadlinks"
-  url "https://github.com/butuzov/deadlinks/releases/download/0.2.0/deadlinks-0.2.0.tar.gz"
-  sha256 "ad78679215f8a509381fe6d487e04132f901b46db056c22982ee505a0258fc10"
+  url "https://files.pythonhosted.org/packages/47/1e/7658a413673bbb994a8fd3c4f54539bd954ef2b5500b43eaa9821079885b/deadlinks-0.2.1.tar.gz"
+  sha256 "63f3fdc998a5938881b115d4faa78b3efbaf5323a23ae8cc0a379428d461fdf9"
 
   depends_on "python"
 
@@ -29,8 +29,8 @@ class Deadlinks < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/62/85/7585750fd65599e88df0fed59c74f5075d4ea2fe611deceb95dd1c2fb25b/certifi-2019.9.11.tar.gz"
-    sha256 "e4f3620cfea4f83eedc95b24abd9cd56f3c4b146dd0177e83a21b4eb49e21e50"
+    url "https://files.pythonhosted.org/packages/41/bf/9d214a5af07debc6acf7f3f257265618f1db242a3f8e49a9b516f24523a6/certifi-2019.11.28.tar.gz"
+    sha256 "25b64c7da4cd7479594d035c08c2d809eb4aab3a26e5a990ea98cc450c320f1f"
   end
 
   resource "idna" do
