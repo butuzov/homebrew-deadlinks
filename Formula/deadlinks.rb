@@ -1,16 +1,16 @@
 class Deadlinks < Formula
   include Language::Python::Virtualenv
 
-  desc "CLI/API for links liveness checking"
+  desc "Health checks for your documentation links"
   homepage "https://github.com/butuzov/deadlinks"
-  url "https://files.pythonhosted.org/packages/47/1e/7658a413673bbb994a8fd3c4f54539bd954ef2b5500b43eaa9821079885b/deadlinks-0.2.1.tar.gz"
-  sha256 "63f3fdc998a5938881b115d4faa78b3efbaf5323a23ae8cc0a379428d461fdf9"
+  url "https://files.pythonhosted.org/packages/8c/35/f70f80b20ec13bebcc28fb589ea39e1e59c1156a799dc7e1377d6889a40f/deadlinks-0.3.0.tar.gz"
+  sha256 "137c76b2ec04d3ab5f0f15a6d526d3d3dee13a23ecd3af7dc1471a700d2377f3"
 
   depends_on "python"
 
   resource "requests" do
-    url "https://files.pythonhosted.org/packages/01/62/ddcf76d1d19885e8579acb1b1df26a852b03472c0e46d2b959a714c90608/requests-2.22.0.tar.gz"
-    sha256 "11e007a8a2aa0323f5a921e9e6a2d7e4e67d9877e85773fba9ba6419025cbeb4"
+    url "https://files.pythonhosted.org/packages/f5/4f/280162d4bd4d8aad241a21aecff7a6e46891b905a4341e7ab549ebaf7915/requests-2.23.0.tar.gz"
+    sha256 "b3f43d496c6daba4493e7c431722aeb7dbc6288f52a6e04e7b6023b0247817e6"
   end
 
   resource "click" do
@@ -19,8 +19,18 @@ class Deadlinks < Formula
   end
 
   resource "urllib3" do
-    url "https://files.pythonhosted.org/packages/ad/fc/54d62fa4fc6e675678f9519e677dfc29b8964278d75333cf142892caf015/urllib3-1.25.7.tar.gz"
-    sha256 "f3c5fd51747d450d4dcf6f923c81f78f811aab8205fda64b0aba34a4e48b0745"
+    url "https://files.pythonhosted.org/packages/09/06/3bc5b100fe7e878d3dee8f807a4febff1a40c213d2783e3246edde1f3419/urllib3-1.25.8.tar.gz"
+    sha256 "87716c2d2a7121198ebcb7ce7cccf6ce5e9ba539041cfbaeecfb641dc0bf6acc"
+  end
+
+  resource "reppy" do
+    url "https://files.pythonhosted.org/packages/b0/b9/8bb8a4cd95dfc6038fb721fad95da8e9558ec936688150302cbd7874c45c/reppy-0.4.14.tar.gz"
+    sha256 "ad98ca17bfc39f543e81b85278f71ceaa1ba3f7c6817ff5a18f7305afa5fff87"
+  end
+
+  resource "six" do
+    url "https://files.pythonhosted.org/packages/21/9f/b251f7f8a76dec1d6651be194dfba8fb8d7781d10ab3987190de8391d08e/six-1.14.0.tar.gz"
+    sha256 "236bdbdce46e6e6a3d61a337c0f8b763ca1e8717c03b369e87a7ec7ce1319c0a"
   end
 
   resource "chardet" do
@@ -34,8 +44,8 @@ class Deadlinks < Formula
   end
 
   resource "idna" do
-    url "https://files.pythonhosted.org/packages/ad/13/eb56951b6f7950cadb579ca166e448ba77f9d24efc03edd7e55fa57d04b7/idna-2.8.tar.gz"
-    sha256 "c357b3f628cf53ae2c4c05627ecc484553142ca23264e593d327bcde5e9c3407"
+    url "https://files.pythonhosted.org/packages/cb/19/57503b5de719ee45e83472f339f617b0c01ad75cba44aba1e4c97c2b0abd/idna-2.9.tar.gz"
+    sha256 "7588d1c14ae4c77d74036e8c22ff447b26d0fde8f007354fd48a7814db15b7cb"
   end
 
   def install
