@@ -3,8 +3,8 @@ class Deadlinks < Formula
 
   desc "Health checks for your documentation links"
   homepage "https://github.com/butuzov/deadlinks"
-  url "https://files.pythonhosted.org/packages/8c/35/f70f80b20ec13bebcc28fb589ea39e1e59c1156a799dc7e1377d6889a40f/deadlinks-0.3.0.tar.gz"
-  sha256 "137c76b2ec04d3ab5f0f15a6d526d3d3dee13a23ecd3af7dc1471a700d2377f3"
+  url "https://files.pythonhosted.org/packages/de/43/f4aa1e06c33a988b3d32d7faa9bf2c286966141d93978cfc64e576b8ec68/deadlinks-0.3.2.tar.gz"
+  sha256 "85d1cc8cf7ffad76fa64563d94ffe7ddeec9c99467171f13cbe4e5bc67d6dd56"
 
   depends_on "python"
 
@@ -14,8 +14,8 @@ class Deadlinks < Formula
   end
 
   resource "click" do
-    url "https://files.pythonhosted.org/packages/f8/5c/f60e9d8a1e77005f664b76ff8aeaee5bc05d0a91798afd7f53fc998dbc47/Click-7.0.tar.gz"
-    sha256 "5b94b49521f6456670fdb30cd82a4eca9412788a93fa6dd6df72c94d5a8ff2d7"
+    url "https://files.pythonhosted.org/packages/4e/ab/5d6bc3b697154018ef196f5b17d958fac3854e2efbc39ea07a284d4a6a9b/click-7.1.1.tar.gz"
+    sha256 "8a18b4ea89d8820c5d0c7da8a64b2c324b4dabb695804dbfea19b9be9d88c0cc"
   end
 
   resource "urllib3" do
